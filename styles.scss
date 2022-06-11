@@ -11,13 +11,34 @@ $main-font: 'Lato', sans-serif;
     padding: 0;
 }
 
+a {
+    text-decoration: none;
+
+    button {
+        padding: 1.5% 3%;
+        margin: 2%;
+        background: $primary-color;
+        border: none;
+        border-radius: 10px;
+        color: #fff;
+        font-size: 1em;
+        letter-spacing: 1px;
+        font-weight: 800;
+        transition: 0.3s ease-in;
+    }
+
+    button:hover {
+        opacity: 0.5;
+        cursor: pointer;
+    }
+}
+
 nav {
     display: flex;
 
     a {
         display: flex;
         align-items: center;
-        text-decoration: none;
         margin: 3%;
         color: $primary-color;
     }
@@ -69,28 +90,31 @@ main {
             color: $secondary-color;
             font-size: 1.2em;
         }
+    }  
 
-        a {
-            text-decoration: none;
+    .end {
+        padding: 3%;
+        font-size: 1.4em;
+        text-align: center;
 
-            button {
-                padding: 1.5% 3%;
-                margin: 2%;
-                background: $primary-color;
-                border: none;
-                border-radius: 10px;
-                color: #fff;
-                font-size: 1em;
-                letter-spacing: 1px;
-                font-weight: 800;
-                transition: 0.3s ease-in;
+        .grid {
+            width: 50%;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            align-items: center;
+            justify-content: center;
+            margin: auto;
+            padding: 3%;
+            text-align: left;
+
+            img {
+                margin: auto;
             }
 
-            button:hover {
-                opacity: 0.5;
-                cursor: pointer;
+            i {
+                font-weight: 200;
+                font-family: Gill Sans, sans-serif;
             }
         }
-
-    }  
+    }
 }

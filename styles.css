@@ -4,13 +4,32 @@
   padding: 0;
 }
 
+a {
+  text-decoration: none;
+}
+a button {
+  padding: 1.5% 3%;
+  margin: 2%;
+  background: #394166;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 1em;
+  letter-spacing: 1px;
+  font-weight: 800;
+  transition: 0.3s ease-in;
+}
+a button:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
 nav {
   display: flex;
 }
 nav a {
   display: flex;
   align-items: center;
-  text-decoration: none;
   margin: 3%;
   color: #394166;
 }
@@ -55,22 +74,25 @@ main .middle h3 {
   color: #1CB8F1;
   font-size: 1.2em;
 }
-main .middle a {
-  text-decoration: none;
+main .end {
+  padding: 3%;
+  font-size: 1.4em;
+  text-align: center;
 }
-main .middle a button {
-  padding: 1.5% 3%;
-  margin: 2%;
-  background: #394166;
-  border: none;
-  border-radius: 10px;
-  color: #fff;
-  font-size: 1em;
-  letter-spacing: 1px;
-  font-weight: 800;
-  transition: 0.3s ease-in;
+main .end .grid {
+  width: 50%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  padding: 3%;
+  text-align: left;
 }
-main .middle a button:hover {
-  opacity: 0.5;
-  cursor: pointer;
+main .end .grid img {
+  margin: auto;
+}
+main .end .grid i {
+  font-weight: 200;
+  font-family: Gill Sans, sans-serif;
 }
