@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Boogaloo&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Boogaloo&family=Lato&display=swap');
 
 $primary-color: #394166;
 $secondary-color: #1CB8F1;
 
 $logo-font: 'Boogaloo', cursive;
-$main-font: 'Roboto', sans-serif;
+$main-font: 'Lato', sans-serif;
 
 * {
     margin: 0;
@@ -43,4 +43,22 @@ nav {
         padding: 1.5% 3%;
         border-radius: 10px;
     }
+}
+
+main {
+    padding: 3%;
+
+    .top {
+        text-align: center;
+        font-family: $main-font;
+        font-size: 1.8em;
+        color: $secondary-color;
+
+        img {
+            padding: 3%;
+        }
+
+    }
+
+    
 }
