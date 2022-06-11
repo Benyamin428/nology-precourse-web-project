@@ -47,11 +47,12 @@ nav {
 
 main {
     padding: 3%;
+    font-family: $main-font;
+    color: $primary-color;
 
     .top {
         text-align: center;
-        font-family: $main-font;
-        font-size: 1.8em;
+        font-size: 2em;
         color: $secondary-color;
 
         img {
@@ -60,5 +61,36 @@ main {
 
     }
 
-    
+    .middle {
+        text-align: center;
+        font-size: 1.4em;
+
+        h3 {
+            color: $secondary-color;
+            font-size: 1.2em;
+        }
+
+        a {
+            text-decoration: none;
+
+            button {
+                padding: 1.5% 3%;
+                margin: 2%;
+                background: $primary-color;
+                border: none;
+                border-radius: 10px;
+                color: #fff;
+                font-size: 1em;
+                letter-spacing: 1px;
+                font-weight: 800;
+                transition: 0.3s ease-in;
+            }
+
+            button:hover {
+                opacity: 0.5;
+                cursor: pointer;
+            }
+        }
+
+    }  
 }

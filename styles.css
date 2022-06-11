@@ -36,13 +36,41 @@ nav .login {
 
 main {
   padding: 3%;
+  font-family: "Lato", sans-serif;
+  color: #394166;
 }
 main .top {
   text-align: center;
-  font-family: "Lato", sans-serif;
-  font-size: 1.8em;
+  font-size: 2em;
   color: #1CB8F1;
 }
 main .top img {
   padding: 3%;
+}
+main .middle {
+  text-align: center;
+  font-size: 1.4em;
+}
+main .middle h3 {
+  color: #1CB8F1;
+  font-size: 1.2em;
+}
+main .middle a {
+  text-decoration: none;
+}
+main .middle a button {
+  padding: 1.5% 3%;
+  margin: 2%;
+  background: #394166;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 1em;
+  letter-spacing: 1px;
+  font-weight: 800;
+  transition: 0.3s ease-in;
+}
+main .middle a button:hover {
+  opacity: 0.5;
+  cursor: pointer;
 }
