@@ -1,0 +1,33 @@
+.top {
+    text-align: center;
+    font-size: 2em;
+    color: $secondary-color;
+
+    img {
+        padding: 3%;
+    }
+
+}
+
+@media only screen and (max-width: 480px) {
+    .top {
+        font-size: 1.4em;
+    }
+}
+
+.middle {
+    text-align: center;
+    font-size: 1.4em;
+
+    h3 {
+        color: $secondary-color;
+        font-size: 1.2em;
+    }
+}  
+
+.end {
+    padding: 3%;
+    font-size: 1.4em;
+    text-align: center;
+
+}

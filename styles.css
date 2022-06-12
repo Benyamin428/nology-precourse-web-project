@@ -24,6 +24,23 @@ a button:hover {
   cursor: pointer;
 }
 
+main {
+  padding: 3%;
+  font-family: "Lato", sans-serif;
+  color: #394166;
+}
+
+footer {
+  background: #FFFCDD;
+  padding: 3%;
+  text-align: center;
+}
+footer a {
+  font-family: "Lato", sans-serif;
+  color: #394166;
+  font-size: 1.4em;
+}
+
 nav {
   display: flex;
 }
@@ -58,38 +75,7 @@ nav .login {
   border-radius: 10px;
 }
 
-main {
-  padding: 3%;
-  font-family: "Lato", sans-serif;
-  color: #394166;
-}
-main .top {
-  text-align: center;
-  font-size: 2em;
-  color: #1CB8F1;
-}
-main .top img {
-  padding: 3%;
-}
-@media only screen and (max-width: 480px) {
-  main .top {
-    font-size: 1.4em;
-  }
-}
-main .middle {
-  text-align: center;
-  font-size: 1.4em;
-}
-main .middle h3 {
-  color: #1CB8F1;
-  font-size: 1.2em;
-}
-main .end {
-  padding: 3%;
-  font-size: 1.4em;
-  text-align: center;
-}
-main .end .grid {
+.grid {
   width: 50%;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -99,26 +85,44 @@ main .end .grid {
   padding: 3%;
   text-align: left;
 }
-main .end .grid img {
+.grid img {
   margin: auto;
 }
-main .end .grid i {
+.grid i {
   font-weight: 200;
   font-family: Gill Sans, sans-serif;
 }
+
 @media only screen and (max-width: 480px) {
-  main .end .grid {
+  .grid {
     width: 100%;
   }
 }
-
-footer {
-  background: #FFFCDD;
-  padding: 3%;
+.top {
   text-align: center;
+  font-size: 2em;
+  color: #1CB8F1;
 }
-footer a {
-  font-family: "Lato", sans-serif;
-  color: #394166;
+.top img {
+  padding: 3%;
+}
+
+@media only screen and (max-width: 480px) {
+  .top {
+    font-size: 1.4em;
+  }
+}
+.middle {
+  text-align: center;
   font-size: 1.4em;
+}
+.middle h3 {
+  color: #1CB8F1;
+  font-size: 1.2em;
+}
+
+.end {
+  padding: 3%;
+  font-size: 1.4em;
+  text-align: center;
 }
