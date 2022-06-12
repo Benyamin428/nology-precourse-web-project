@@ -96,3 +96,14 @@ main .end .grid i {
   font-weight: 200;
   font-family: Gill Sans, sans-serif;
 }
+
+footer {
+  background: #FFFCDD;
+  padding: 3%;
+  text-align: center;
+}
+footer a {
+  font-family: "Lato", sans-serif;
+  color: #394166;
+  font-size: 1.4em;
+}

@@ -118,3 +118,15 @@ main {
         }
     }
 }
+
+footer {
+    background: #FFFCDD;
+    padding: 3%;
+    text-align: center;
+
+    a {
+        font-family: $main-font;
+        color: $primary-color;
+        font-size: 1.4em;
+    }
+}
